@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-30T20:51:48 IST" name="Suite" finished-at="2022-05-30T20:53:18 IST" duration-ms="89608">
+  <suite started-at="2022-05-31T09:35:12 IST" name="Suite" finished-at="2022-05-31T09:36:23 IST" duration-ms="70577">
     <groups>
     </groups>
-    <test started-at="2022-05-30T20:51:48 IST" name="Test" finished-at="2022-05-30T20:53:18 IST" duration-ms="89608">
+    <test started-at="2022-05-31T09:35:12 IST" name="Test" finished-at="2022-05-31T09:36:23 IST" duration-ms="70577">
       <class name="insuranceCalculation_Motorcycle.VerifyInsurancePremiumforHondaMotorCycle">
-        <test-method is-config="true" signature="SetUpMethod()[pri:0, instance:insuranceCalculation_Motorcycle.VerifyInsurancePremiumforHondaMotorCycle@6548bb7d]" started-at="2022-05-30T20:51:49 IST" name="SetUpMethod" finished-at="2022-05-30T20:52:17 IST" duration-ms="27845" status="PASS">
+        <test-method is-config="true" signature="SetUpMethod()[pri:0, instance:insuranceCalculation_Motorcycle.VerifyInsurancePremiumforHondaMotorCycle@6548bb7d]" started-at="2022-05-31T09:35:13 IST" name="SetUpMethod" finished-at="2022-05-31T09:35:34 IST" duration-ms="20966" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpMethod -->
-        <test-method signature="insuranceCalculate_FordMoped()[pri:0, instance:insuranceCalculation_Motorcycle.VerifyInsurancePremiumforHondaMotorCycle@6548bb7d]" started-at="2022-05-30T20:52:17 IST" name="insuranceCalculate_FordMoped" finished-at="2022-05-30T20:52:32 IST" duration-ms="15174" status="FAIL">
+        <test-method signature="insuranceCalculate_FordMoped()[pri:0, instance:insuranceCalculation_Motorcycle.VerifyInsurancePremiumforHondaMotorCycle@6548bb7d]" started-at="2022-05-31T09:35:34 IST" name="insuranceCalculate_FordMoped" finished-at="2022-05-31T09:35:42 IST" duration-ms="8315" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Pricing for Silver plan is not Matching. expected [258.00] but found [93.00]]]>
@@ -56,27 +56,27 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- insuranceCalculate_FordMoped -->
-        <test-method is-config="true" signature="ClosureMethod()[pri:0, instance:insuranceCalculation_Motorcycle.VerifyInsurancePremiumforHondaMotorCycle@6548bb7d]" started-at="2022-05-30T20:52:33 IST" name="ClosureMethod" finished-at="2022-05-30T20:52:36 IST" duration-ms="3447" status="PASS">
+        <test-method is-config="true" signature="ClosureMethod()[pri:0, instance:insuranceCalculation_Motorcycle.VerifyInsurancePremiumforHondaMotorCycle@6548bb7d]" started-at="2022-05-31T09:35:43 IST" name="ClosureMethod" finished-at="2022-05-31T09:35:44 IST" duration-ms="1500" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClosureMethod -->
-        <test-method is-config="true" signature="SetUpMethod()[pri:0, instance:insuranceCalculation_Motorcycle.VerifyInsurancePremiumforHondaMotorCycle@6548bb7d]" started-at="2022-05-30T20:52:36 IST" name="SetUpMethod" finished-at="2022-05-30T20:52:50 IST" duration-ms="13284" status="PASS">
+        <test-method is-config="true" signature="SetUpMethod()[pri:0, instance:insuranceCalculation_Motorcycle.VerifyInsurancePremiumforHondaMotorCycle@6548bb7d]" started-at="2022-05-31T09:35:44 IST" name="SetUpMethod" finished-at="2022-05-31T09:35:56 IST" duration-ms="11168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpMethod -->
-        <test-method signature="insuranceCalculate_Honda()[pri:0, instance:insuranceCalculation_Motorcycle.VerifyInsurancePremiumforHondaMotorCycle@6548bb7d]" started-at="2022-05-30T20:52:50 IST" name="insuranceCalculate_Honda" finished-at="2022-05-30T20:53:00 IST" duration-ms="10007" status="PASS">
+        <test-method signature="insuranceCalculate_Honda()[pri:0, instance:insuranceCalculation_Motorcycle.VerifyInsurancePremiumforHondaMotorCycle@6548bb7d]" started-at="2022-05-31T09:35:56 IST" name="insuranceCalculate_Honda" finished-at="2022-05-31T09:36:03 IST" duration-ms="7526" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- insuranceCalculate_Honda -->
-        <test-method is-config="true" signature="ClosureMethod()[pri:0, instance:insuranceCalculation_Motorcycle.VerifyInsurancePremiumforHondaMotorCycle@6548bb7d]" started-at="2022-05-30T20:53:00 IST" name="ClosureMethod" finished-at="2022-05-30T20:53:01 IST" duration-ms="1423" status="PASS">
+        <test-method is-config="true" signature="ClosureMethod()[pri:0, instance:insuranceCalculation_Motorcycle.VerifyInsurancePremiumforHondaMotorCycle@6548bb7d]" started-at="2022-05-31T09:36:03 IST" name="ClosureMethod" finished-at="2022-05-31T09:36:05 IST" duration-ms="1504" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClosureMethod -->
-        <test-method is-config="true" signature="SetUpMethod()[pri:0, instance:insuranceCalculation_Motorcycle.VerifyInsurancePremiumforHondaMotorCycle@6548bb7d]" started-at="2022-05-30T20:53:01 IST" name="SetUpMethod" finished-at="2022-05-30T20:53:10 IST" duration-ms="8480" status="PASS">
+        <test-method is-config="true" signature="SetUpMethod()[pri:0, instance:insuranceCalculation_Motorcycle.VerifyInsurancePremiumforHondaMotorCycle@6548bb7d]" started-at="2022-05-31T09:36:05 IST" name="SetUpMethod" finished-at="2022-05-31T09:36:15 IST" duration-ms="10143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUpMethod -->
-        <test-method signature="insuranceCalculate_Volvo()[pri:0, instance:insuranceCalculation_Motorcycle.VerifyInsurancePremiumforHondaMotorCycle@6548bb7d]" started-at="2022-05-30T20:53:10 IST" name="insuranceCalculate_Volvo" finished-at="2022-05-30T20:53:16 IST" duration-ms="6288" status="FAIL">
+        <test-method signature="insuranceCalculate_Volvo()[pri:0, instance:insuranceCalculation_Motorcycle.VerifyInsurancePremiumforHondaMotorCycle@6548bb7d]" started-at="2022-05-31T09:36:15 IST" name="insuranceCalculate_Volvo" finished-at="2022-05-31T09:36:21 IST" duration-ms="6474" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Pricing for Gold plan is not Matching. expected [696.00] but found [772.00]]]>
@@ -121,7 +121,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- insuranceCalculate_Volvo -->
-        <test-method is-config="true" signature="ClosureMethod()[pri:0, instance:insuranceCalculation_Motorcycle.VerifyInsurancePremiumforHondaMotorCycle@6548bb7d]" started-at="2022-05-30T20:53:16 IST" name="ClosureMethod" finished-at="2022-05-30T20:53:18 IST" duration-ms="1394" status="PASS">
+        <test-method is-config="true" signature="ClosureMethod()[pri:0, instance:insuranceCalculation_Motorcycle.VerifyInsurancePremiumforHondaMotorCycle@6548bb7d]" started-at="2022-05-31T09:36:22 IST" name="ClosureMethod" finished-at="2022-05-31T09:36:23 IST" duration-ms="1329" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClosureMethod -->

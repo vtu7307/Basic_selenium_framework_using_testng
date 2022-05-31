@@ -6,6 +6,14 @@
   </listeners>
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
+      <class name="insuranceCalculation_Motorcycle.errortests_motor_cycle">
+        <methods>
+          <include name="SetUpMethod"/>
+          <include name="ClosureMethod"/>
+          <include name="errorMessageModelDropDown"/>
+          <include name="errorMessageManufacturedateformat"/>
+        </methods>
+      </class> <!-- insuranceCalculation_Motorcycle.errortests_motor_cycle -->
       <class name="insuranceCalculation_Motorcycle.VerifyInsurancePremiumforHondaMotorCycle">
         <methods>
           <include name="SetUpMethod"/>

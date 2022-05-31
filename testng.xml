@@ -7,7 +7,7 @@
   <test name="Test">
     <classes>
       <class name="insuranceCalculation_Motorcycle.VerifyInsurancePremiumforHondaMotorCycle"/>
-      <!--<class name="insuranceCalculation_Motorcycle.errortests_motor_cycle"/> -->
+      <class name="insuranceCalculation_Motorcycle.errortests_motor_cycle"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite --> 

@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 2 failed,   1 passed</span>
+                    <span class="method-stats">8 methods, 4 failed,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,6 +102,16 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
                     </span>
                     <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="insuranceCalculation_Motorcycle.errortests_motor_cycle" class="method navigator-link" hash-for-method="errorMessageManufacturedateformat">errorMessageManufacturedateformat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="insuranceCalculation_Motorcycle.errortests_motor_cycle" class="method navigator-link" hash-for-method="errorMessageModelDropDown">errorMessageModelDropDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="insuranceCalculation_Motorcycle.VerifyInsurancePremiumforHondaMotorCycle" class="method navigator-link" hash-for-method="insuranceCalculate_FordMoped">insuranceCalculate_FordMoped</a> <!-- method navigator-link -->
@@ -123,6 +133,21 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="insuranceCalculation_Motorcycle.errortests_motor_cycle" class="method navigator-link" hash-for-method="VerifyMakedropdownOptions">VerifyMakedropdownOptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="insuranceCalculation_Motorcycle.errortests_motor_cycle" class="method navigator-link" hash-for-method="VerifyModeldropdownOptions">VerifyModeldropdownOptions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="insuranceCalculation_Motorcycle.errortests_motor_cycle" class="method navigator-link" hash-for-method="errorMessageMakeDropDown">errorMessageMakeDropDown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="insuranceCalculation_Motorcycle.VerifyInsurancePremiumforHondaMotorCycle" class="method navigator-link" hash-for-method="insuranceCalculate_Honda">insuranceCalculate_Honda</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -141,6 +166,38 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
+              <span class="class-name">insuranceCalculation_Motorcycle.errortests_motor_cycle</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="errorMessageManufacturedateformat">
+                  </a> <!-- errorMessageManufacturedateformat -->
+                  <span class="method-name">errorMessageManufacturedateformat</span>
+                  <div class="stack-trace">java.lang.AssertionError: Error message is : expected [Must be a valid date format] but found [Must be a valid date]
+	at insuranceCalculation_Motorcycle.errortests_motor_cycle.errorMessageManufacturedateformat(errortests_motor_cycle.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="errorMessageModelDropDown">
+                  </a> <!-- errorMessageModelDropDown -->
+                  <span class="method-name">errorMessageModelDropDown</span>
+                  <div class="stack-trace">java.lang.AssertionError: Error message is: expected [Select atleast one option] but found [Select an option]
+	at insuranceCalculation_Motorcycle.errortests_motor_cycle.errorMessageModelDropDown(errortests_motor_cycle.java:46)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
               <span class="class-name">insuranceCalculation_Motorcycle.VerifyInsurancePremiumforHondaMotorCycle</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -151,8 +208,8 @@
                   <span class="method-name">insuranceCalculate_FordMoped</span>
                   <div class="stack-trace">java.lang.AssertionError: Pricing for Silver plan is not Matching. expected [258.00] but found [93.00]
 	at insuranceCalculation_Motorcycle.VerifyInsurancePremiumforHondaMotorCycle.insuranceCalculate_FordMoped(VerifyInsurancePremiumforHondaMotorCycle.java:71)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 34 stack frames
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -163,13 +220,42 @@
                   <span class="method-name">insuranceCalculate_Volvo</span>
                   <div class="stack-trace">java.lang.AssertionError: Pricing for Gold plan is not Matching. expected [696.00] but found [772.00]
 	at insuranceCalculation_Motorcycle.VerifyInsurancePremiumforHondaMotorCycle.insuranceCalculate_Volvo(VerifyInsurancePremiumforHondaMotorCycle.java:51)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 34 stack frames
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">insuranceCalculation_Motorcycle.errortests_motor_cycle</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyMakedropdownOptions">
+                  </a> <!-- VerifyMakedropdownOptions -->
+                  <span class="method-name">VerifyMakedropdownOptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyModeldropdownOptions">
+                  </a> <!-- VerifyModeldropdownOptions -->
+                  <span class="method-name">VerifyModeldropdownOptions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="errorMessageMakeDropDown">
+                  </a> <!-- errorMessageMakeDropDown -->
+                  <span class="method-name">errorMessageMakeDropDown</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -201,6 +287,7 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;insuranceCalculation_Motorcycle.VerifyInsurancePremiumforHondaMotorCycle&quot;/&gt;
+      &lt;class name=&quot;insuranceCalculation_Motorcycle.errortests_motor_cycle&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -214,7 +301,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Test (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -240,24 +327,44 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(8);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'insuranceCalculate_Honda')
+data.setCell(0, 1, 'insuranceCalculate_FordMoped')
 data.setCell(0, 2, 'insuranceCalculation_Motorcycle.VerifyInsurancePremiumforHondaMotorCycle')
-data.setCell(0, 3, 7808);
+data.setCell(0, 3, 16732);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'insuranceCalculate_FordMoped')
+data.setCell(1, 1, 'insuranceCalculate_Honda')
 data.setCell(1, 2, 'insuranceCalculation_Motorcycle.VerifyInsurancePremiumforHondaMotorCycle')
-data.setCell(1, 3, 6773);
+data.setCell(1, 3, 10789);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'insuranceCalculate_Volvo')
 data.setCell(2, 2, 'insuranceCalculation_Motorcycle.VerifyInsurancePremiumforHondaMotorCycle')
-data.setCell(2, 3, 6438);
+data.setCell(2, 3, 6915);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'errorMessageManufacturedateformat')
+data.setCell(3, 2, 'insuranceCalculation_Motorcycle.errortests_motor_cycle')
+data.setCell(3, 3, 2315);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'VerifyMakedropdownOptions')
+data.setCell(4, 2, 'insuranceCalculation_Motorcycle.errortests_motor_cycle')
+data.setCell(4, 3, 2130);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'errorMessageMakeDropDown')
+data.setCell(5, 2, 'insuranceCalculation_Motorcycle.errortests_motor_cycle')
+data.setCell(5, 3, 1908);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'VerifyModeldropdownOptions')
+data.setCell(6, 2, 'insuranceCalculation_Motorcycle.errortests_motor_cycle')
+data.setCell(6, 3, 1736);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'errorMessageModelDropDown')
+data.setCell(7, 2, 'insuranceCalculation_Motorcycle.errortests_motor_cycle')
+data.setCell(7, 3, 1667);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <span class="suite-total-time">Total running time: 44 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -272,9 +379,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">insuranceCalculation_Motorcycle.errortests_motor_cycle</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">errorMessageCylinder_Capacity</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -292,37 +406,104 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">insuranceCalculate_FordMoped</span>
-                <span class="method-start">15445 ms</span>
+                <span class="method-start">35186 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">ClosureMethod</span>
-                <span class="method-start">22464 ms</span>
+                <span class="method-start">54713 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">SetUpMethod</span>
-                <span class="method-start">23810 ms</span>
+                <span class="method-start">59989 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">insuranceCalculate_Honda</span>
-                <span class="method-start">29796 ms</span>
+                <span class="method-start">73790 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">ClosureMethod</span>
-                <span class="method-start">37606 ms</span>
+                <span class="method-start">84581 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">SetUpMethod</span>
-                <span class="method-start">38938 ms</span>
+                <span class="method-start">86636 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">insuranceCalculate_Volvo</span>
-                <span class="method-start">44950 ms</span>
+                <span class="method-start">97079 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">ClosureMethod</span>
-                <span class="method-start">51621 ms</span>
+                <span class="method-start">104269 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">insuranceCalculation_Motorcycle.errortests_motor_cycle</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUpMethod</span>
+                <span class="method-start">106117 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">errorMessageMakeDropDown</span>
+                <span class="method-start">115563 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ClosureMethod</span>
+                <span class="method-start">117472 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUpMethod</span>
+                <span class="method-start">119282 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">errorMessageModelDropDown</span>
+                <span class="method-start">127221 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ClosureMethod</span>
+                <span class="method-start">129103 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUpMethod</span>
+                <span class="method-start">130892 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">errorMessageManufacturedateformat</span>
+                <span class="method-start">139700 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ClosureMethod</span>
+                <span class="method-start">142813 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUpMethod</span>
+                <span class="method-start">144724 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyMakedropdownOptions</span>
+                <span class="method-start">151603 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ClosureMethod</span>
+                <span class="method-start">153733 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUpMethod</span>
+                <span class="method-start">155581 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyModeldropdownOptions</span>
+                <span class="method-start">164069 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ClosureMethod</span>
+                <span class="method-start">165806 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
