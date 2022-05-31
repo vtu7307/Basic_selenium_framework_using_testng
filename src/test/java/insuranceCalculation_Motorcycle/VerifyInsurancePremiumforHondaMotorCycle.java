@@ -19,7 +19,7 @@ ExcelOperations excel = new ExcelOperations("InsuranceData");
 	
 
 	@Test
-	public void insuranceCalculate_HondaTestcase() throws Exception {
+	public void insuranceCalculate_Honda() throws Exception {
 		HashMap<String, String> testData = excel.getTestDatainMap(1);
 		test.log(Status.INFO,"Testdata used for execution is "+testData);
 		  homepage.ClickOnMotorCycle(); 
@@ -38,7 +38,7 @@ ExcelOperations excel = new ExcelOperations("InsuranceData");
 		 
 	}
 	@Test
-	public void insuranceCalculate_VolvoTestCase() throws Exception {
+	public void insuranceCalculate_Volvo() throws Exception {
 		HashMap<String, String> testData = excel.getTestDatainMap(2);
 		test.log(Status.INFO,"Testdata used for execution is "+testData);
 		  homepage.ClickOnMotorCycle(); 
@@ -57,7 +57,7 @@ ExcelOperations excel = new ExcelOperations("InsuranceData");
 		 
 	}
 	@Test
-	public void insuranceCalculate_FordMopedTestCase() throws Exception {
+	public void insuranceCalculate_FordMoped() throws Exception {
 		HashMap<String, String> testData = excel.getTestDatainMap(3);
 		test.log(Status.INFO,"Testdata used for execution is "+testData);
 		  homepage.ClickOnMotorCycle(); 
